@@ -10,8 +10,17 @@ body{
 }
 
 button{
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
     border: none;
     display: block;
+
+    width: 236px;
+    height: 46px;
+    border-radius: 8px;
+
+    margin: 0 auto;
 }
 
 h1{
@@ -19,7 +28,7 @@ h1{
     color: hsl(212, 21%, 14%);
 }
 
-img{
+#desktop-product {
     object-position: left;
 
     width: 300px;
@@ -56,5 +65,5 @@ img{
 }
 
 .sale{
-
+    color: hsl(158, 36%, 37%);
 }
