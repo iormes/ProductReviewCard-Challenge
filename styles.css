@@ -28,11 +28,15 @@ h1{
     color: hsl(212, 21%, 14%);
 }
 
-#desktop-product {
+#desktop {
     object-position: left;
 
     width: 300px;
     height: 450px;
+}
+
+#mobile{
+    
 }
 
 .attribution { 
