@@ -20,7 +20,9 @@ button{
     height: 46px;
     border-radius: 8px;
 
+    padding: 0px;
     margin: 0 auto;
+
 }
 
 h1{
@@ -93,6 +95,10 @@ h2{
     }
 }
 
+#cart-icon{
+    vertical-align: middle;
+}
+
 .product-description {
     padding: 15px;
 }
@@ -110,12 +116,14 @@ h2{
 .price{
     display: inline-block;
     padding: 4px;
+    vertical-align: middle;
 }
 
 .sale{
     color: hsl(158, 36%, 37%);
     font-family: "Fraunces";
     font-weight: 700;
-    font-size: 25px;
-    padding: 0;
+    font-size: 30px;
+    padding: 0 10px 0 0;
+
 }
